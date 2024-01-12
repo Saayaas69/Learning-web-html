@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Form</title>
+</head>
+
+<body>
+  <form action="mailto:navrajgyawali12@gmail.com" method="post" enctype="text/plain">
+    <fieldset>
+      <legend>MERN Class Information</legend>
+      <p>
+        <label for="username">Username</label>
+        <input type="Username" placeholder="provide your email" id="Username" required minlength="4">
+       </p>
+
+<p>
+  <label for="email">Email</label>
+  <input type="email" id="email">
+</p>
+<!--For choosing one option-->
+<p>
+  <h4>Select your Gender</h4>
+  <label for="">Male</label>
+  <input type="radio" id="male" value="male" name="gender">
+
+  <label for="">Female</label>
+  <input type="radio" id="female" value="female" name="gender">
+</p>
+<!--For Choosing option(can choose multiple)-->
+<p>
+  <h4>Select your Habbits</h4>
+  <label for="dance">Dance</label>
+  <input type="checkbox" id="dance" value="dance" name="habbits">
+
+  <label for="sing">Sing</label>
+  <input type="checkbox" id="sing" value="sing" name="habbits">
+</p>
+<!--For date-->
+<p>
+  <label for="date">Join Date</label>
+  <input type="date" name="date" id="date">
+</p>
+<!--For Selection-->
+<p>
+  <label for="country">Select Country: -</label>
+  <select name="country" id=""></select>
+  <option value="nepal">Nepal</option>
+  <option value="india">India</option>
+  <option value="china">China</option>
+</p>
+<!--For Selection-->
+<p>
+  <label for="coffee">Select Favourite Coffee: -</label>
+  <select name="coffee" id="">
+ <optgroup label="Strong Coffee">
+<option value="expresso">Expresso</option>
+<option value="mochiyato">Mochiyato</option>
+ </optgroup>
+
+ <optgroup label="light-Coffee">
+  <option value="latte">latte</option>
+  <option value="americano">Americano</option>
+ </optgroup>
+</select>
+</p>
+
+<!--For Text-->
+<p>
+  <label for="msg">
+    <h3>Type Message</h3>
+  </label>
+  <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+</p>
+
+<!--For submission and reset-->
+      <button class="submit">Submit</button>
+      <button class="reset"> Reset</button>
+ 
+    </fieldset>
+  </form>
+</body>
+</html>
