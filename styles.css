@@ -13,3 +13,42 @@ padding: 0;
 .nbx>h1 {
   color: violet;
 }
+/* li:first-child {
+  color: red; */
+
+  /* li:second-child {
+  color: red; */
+
+
+  .bx p:nth-child(even) {
+    color: red;
+  }
+  button{
+    padding: 8px;
+    margin-top: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px; 
+    transition: opacity 0.8;
+  }
+
+  button:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    opacity: 0.7s;
+  }
+
+  .novel p::before {
+    content: "highlight";
+    color: red;
+    font-size: 20px;
+  }
+
+  .novel p::after {
+    content: "highlight";
+    color: green;
+    font-size: 20px;
+  }
