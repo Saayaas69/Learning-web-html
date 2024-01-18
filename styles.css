@@ -1,87 +1,110 @@
 * {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-.bx h1, .bx p{
+.bx h1, .bx p {
   color: blue;
 }
- h1{
+
+h1 {
   color: green;
 }
 
 .nbx>h1 {
   color: violet;
 }
+
 /* li:first-child {
   color: red; */
 
-  /* li:second-child {
+/* li:second-child {
   color: red; */
 
 
-  .bx p:nth-child(even) {
-    color: red;
-  }
-  button{
-    padding: 8px;
-    margin-top: 40px;
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    margin-left: 10px; 
-    transition: opacity 0.8;
-  }
+.bx p:nth-child(even) {
+  color: red;
+}
 
-  button:hover{
-    cursor: pointer;
-    background-color: red;
-    color: white;
-    opacity: 0.7s;
-  }
+button {
+  padding: 8px;
+  margin-top: 40px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  transition: opacity 0.8;
+}
 
-  .novel p::before {
-    content: "highlight";
-    color: red;
-    font-size: 20px;
-  }
+button:hover {
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  opacity: 0.7s;
+}
 
-  .novel p::after {
-    content: "highlight";
-    color: green;
-    font-size: 20px;
-  }
+.novel p::before {
+  content: "highlight";
+  color: red;
+  font-size: 20px;
+}
 
-  .novel p::selection {
-    color: green;
-  }
-  
-  img {
-    display: inline-block;
-  }
+.novel p::after {
+  content: "highlight";
+  color: green;
+  font-size: 20px;
+}
 
-  img[alt="e-girl"] {
-    width: 400px;
-    margin-left: 20px;
-  }
-  img[alt="tattoo-girl"] {
-    width: 400px;
-    margin-left: 40px;
-  }
+.novel p::selection {
+  color: green;
+}
 
-  body{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-  }
+img {
+  display: inline-block;
+}
 
-  input[type="email"]:focus {
-    color: blue;
-    border: 1px solid red;
-    outline: none;
-  }
-  
-  input[type="radio"]:checked+label {
-    color: red;
-  }
+img[alt="e-girl"] {
+  width: 400px;
+  margin-left: 20px;
+}
+
+img[alt="tattoo-girl"] {
+  width: 400px;
+  margin-left: 40px;
+}
+
+body {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-family: Robotoreg;
+  height: 3000px;
+}
+
+input[type="email"]:focus {
+  color: blue;
+  border: 1px solid red;
+  outline: none;
+}
+
+input[type="radio"]:checked+label {
+  color: red;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Robotoreg';
+  src: url(assets/fonts/RobotoFlex-Regular.ttf);
+}
+
+.gg {
+  font-size: 14px;
+}
+
+.gg p {
+  font-size: 15px;
+}
