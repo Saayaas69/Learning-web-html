@@ -4,12 +4,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Box Model practice</title>
-  <link rel="stylesheet" href="box.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      padding: 10px;
+    }
+
+    .bx {
+      width: 1500px;
+      height: 650px;
+    }
+
+    .bx img {
+      width: 100%;
+    }
+  </style>
+
 </head>
 
 <body>
   <div class="bx">
+    <img src="wallpaperflare.com_wallpaper.jpg">
+    <div class="info">
+      <h4>ANFIELD STAIDUM</h4>
+      <p>LIVERPOOL</p>
+    </div>
 
   </div>
 </body>

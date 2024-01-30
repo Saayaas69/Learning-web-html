@@ -3,3 +3,11 @@
   width: 200px;
   background-color: lightblue;
 }
+
+p {
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgba(255, 166, 0, 0.486);
+  margin: 50px;
+  text-shadow: 3px 3px 1px darkblue;
+}
