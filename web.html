@@ -5,18 +5,98 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web pied</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      background-color: #1e293b;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 5px;
+    }
+
+    a {
+      text-decoration: none;
+      padding-left: 14px;
+      padding-right: 12px;
+      font-size: 1.1rem;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .main-display {
+      background-color: #1e293b;
+      height: 250px;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      padding: 15px;
+    }
+
+    .dis-info {
+      color: white;
+      padding-top: 5%;
+      line-height: 32px;
+      border: none;
+    }
+
+    .dis-info input[type=text] {
+      outline: none;
+      width: 40%;
+      border-radius: 10px;
+      padding: 4px 10px;
+    }
+
+    .dis-info button {
+      border: none;
+      padding: 5px 5px;
+      cursor: pointer;
+    }
+
+    .dis-info button:hover {
+      background-color: black;
+      color: white;
+    }
+
+    .dis-img img {
+      border-radius: 10px;
+    }
+  </style>
 </head>
 
 <body>
   <header>
     <div class="title">
-      Skillz
+      <h1>Skillz</h1>
     </div>
     <nav>
       <a>About</a>
       <a>Contact</a>
     </nav>
   </header>
+
+  <div class="main-display">
+    <div class="dis-info">
+      <h1>Learn any digital skill of your choice today</h1>
+      <h3>Over 30000 students currently learn with us</h3>
+      <form>
+        <input type="text" placeholder="Enter your email address">
+        <button type="submit">Start Learning</button>
+      </form>
+      <p>Try out our free course.No risk, no credit card required</p>
+    </div>
+
+    <div class="dis-img">
+      <img src="images/istockphoto-1452573663-170667a.jpg" alt="">
+    </div>
+  </div>
 </body>
 
 </html>
